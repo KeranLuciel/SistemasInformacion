@@ -96,6 +96,7 @@ public class Productos extends javax.swing.JFrame {
         jPanel1.setMinimumSize(new java.awt.Dimension(1025, 570));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jBSalir.setIcon(new javax.swing.ImageIcon("C:\\Users\\karen\\OneDrive\\Documentos\\Document\\CICLO VI\\Sistemas de Información II\\Producto\\Phosto_Clasificación\\Group 10087.png")); // NOI18N
         jBSalir.setBorder(null);
         jBSalir.setBorderPainted(false);
         jBSalir.setContentAreaFilled(false);
@@ -106,21 +107,25 @@ public class Productos extends javax.swing.JFrame {
         });
         jPanel1.add(jBSalir, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 20, -1, -1));
 
+        jBProductos.setIcon(new javax.swing.ImageIcon("C:\\Users\\karen\\OneDrive\\Documentos\\Document\\CICLO VI\\Sistemas de Información II\\Producto\\Phosto_Clasificación\\Group 10119.png")); // NOI18N
         jBProductos.setBorder(null);
         jBProductos.setBorderPainted(false);
         jBProductos.setContentAreaFilled(false);
         jPanel1.add(jBProductos, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, -1, -1));
 
+        jBClasificaciónABC.setIcon(new javax.swing.ImageIcon("C:\\Users\\karen\\OneDrive\\Documentos\\Document\\CICLO VI\\Sistemas de Información II\\Producto\\Phosto_Clasificación\\Group 10120.png")); // NOI18N
         jBClasificaciónABC.setBorder(null);
         jBClasificaciónABC.setBorderPainted(false);
         jBClasificaciónABC.setContentAreaFilled(false);
         jPanel1.add(jBClasificaciónABC, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, -1, -1));
 
+        jBVentas.setIcon(new javax.swing.ImageIcon("C:\\Users\\karen\\OneDrive\\Documentos\\Document\\CICLO VI\\Sistemas de Información II\\Producto\\Phosto_Clasificación\\Group 10093.png")); // NOI18N
         jBVentas.setBorder(null);
         jBVentas.setBorderPainted(false);
         jBVentas.setContentAreaFilled(false);
         jPanel1.add(jBVentas, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 290, -1, -1));
 
+        jBGenerarInfo.setIcon(new javax.swing.ImageIcon("C:\\Users\\karen\\OneDrive\\Documentos\\Document\\CICLO VI\\Sistemas de Información II\\Producto\\Phosto_Clasificación\\Group 10121.png")); // NOI18N
         jBGenerarInfo.setBorder(null);
         jBGenerarInfo.setBorderPainted(false);
         jBGenerarInfo.setContentAreaFilled(false);
@@ -217,6 +222,8 @@ public class Productos extends javax.swing.JFrame {
         jScrollPane1.setViewportView(tableProducto);
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 337, 670, 220));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\karen\\OneDrive\\Documentos\\Document\\CICLO VI\\Sistemas de Información II\\Producto\\Phosto_Clasificación\\Productos.png")); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -225,13 +232,13 @@ public class Productos extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(26, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(26, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
