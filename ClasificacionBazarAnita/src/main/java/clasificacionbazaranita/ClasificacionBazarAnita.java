@@ -1,6 +1,6 @@
 package clasificacionbazaranita;
 
-import Conexion.ConnectionSql;
+import AccesoDatos.ConnectionSql;
 import Views.*;
 import java.sql.CallableStatement;
 import java.sql.Connection;

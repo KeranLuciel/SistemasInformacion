@@ -1,5 +1,5 @@
 
-package Conexion;
+package AccesoDatos;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
